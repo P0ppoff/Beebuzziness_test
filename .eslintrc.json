@@ -17,6 +17,7 @@
   },
   "rules": {
     "no-console": "off",
-    "array-callback-return": "off"
+    "array-callback-return": "off",
+    "max-len": "off"
   }
 }
