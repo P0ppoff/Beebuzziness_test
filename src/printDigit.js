@@ -1,10 +1,10 @@
-const { DIGIT0 } = require('./digits.enum');
+const DIGITS = require('./digits.enum');
 
-const createLines = () => DIGIT0.map((line) => line.reduce((acc, char) => acc + char, ''));
+const createLines = (digit) => DIGITS[`DIGIT${digit}`].map((line) => line.reduce((acc, char) => acc + char, ''));
 
 const printDigit = (digit) => {
-  if (digit === 0) {
-    createLines().map((line) => {
+  if (digit === 0 || digit === 1 || digit === 2 || digit === 3) {
+    createLines(digit).map((line) => {
       console.log(line);
     });
   }
