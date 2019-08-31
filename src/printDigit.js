@@ -1,16 +1,16 @@
-const DIGIT0 = require('./digits.enum').DIGIT0;
+const { DIGIT0 } = require('./digits.enum');
 
-const printDigit = digit => {
+const createLines = () => DIGIT0.map((line) => line.reduce((acc, char) => acc + char, ''));
+
+const printDigit = (digit) => {
   if (digit === 0) {
-    createLines().map(console.log)
+    createLines().map((line) => {
+      console.log(line);
+    });
   }
-};
-
-const createLines = () => {
-  return DIGIT0.map(line => line.reduce((acc, char) => acc += char), '')
 };
 
 module.exports = {
   printDigit,
-  createLines
+  createLines,
 };
