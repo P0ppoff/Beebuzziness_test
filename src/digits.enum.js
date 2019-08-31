@@ -26,9 +26,51 @@ const DIGIT3 = [
   [DOT, UNDERSCORE, PIPE],
 ];
 
+const DIGIT4 = [
+  [DOT, DOT, DOT],
+  [PIPE, UNDERSCORE, PIPE],
+  [DOT, DOT, PIPE],
+];
+
+const DIGIT5 = [
+  [DOT, UNDERSCORE, DOT],
+  [PIPE, UNDERSCORE, DOT],
+  [DOT, UNDERSCORE, PIPE],
+];
+
+const DIGIT6 = [
+  [DOT, UNDERSCORE, DOT],
+  [PIPE, UNDERSCORE, DOT],
+  [PIPE, UNDERSCORE, PIPE],
+];
+
+const DIGIT7 = [
+  [DOT, UNDERSCORE, DOT],
+  [DOT, DOT, PIPE],
+  [DOT, DOT, PIPE],
+];
+
+const DIGIT8 = [
+  [DOT, UNDERSCORE, DOT],
+  [PIPE, UNDERSCORE, PIPE],
+  [PIPE, UNDERSCORE, PIPE],
+];
+
+const DIGIT9 = [
+  [DOT, UNDERSCORE, DOT],
+  [PIPE, UNDERSCORE, PIPE],
+  [DOT, DOT, PIPE],
+];
+
 module.exports = {
   DIGIT0,
   DIGIT1,
   DIGIT2,
   DIGIT3,
+  DIGIT4,
+  DIGIT5,
+  DIGIT6,
+  DIGIT7,
+  DIGIT8,
+  DIGIT9,
 };

@@ -29,4 +29,46 @@ describe('Constants', () => {
       ['.', '_', '|'],
     ]);
   });
+  it('should return digit 4 model', () => {
+    expect(DIGITS.DIGIT4).toEqual([
+      ['.', '.', '.'],
+      ['|', '_', '|'],
+      ['.', '.', '|'],
+    ]);
+  });
+  it('should return digit 5 model', () => {
+    expect(DIGITS.DIGIT5).toEqual([
+      ['.', '_', '.'],
+      ['|', '_', '.'],
+      ['.', '_', '|'],
+    ]);
+  });
+  it('should return digit 6 model', () => {
+    expect(DIGITS.DIGIT6).toEqual([
+      ['.', '_', '.'],
+      ['|', '_', '.'],
+      ['|', '_', '|'],
+    ]);
+  });
+  it('should return digit 7 model', () => {
+    expect(DIGITS.DIGIT7).toEqual([
+      ['.', '_', '.'],
+      ['.', '.', '|'],
+      ['.', '.', '|'],
+    ]);
+  });
+  it('should return digit 8 model', () => {
+    expect(DIGITS.DIGIT8).toEqual([
+      ['.', '_', '.'],
+      ['|', '_', '|'],
+      ['|', '_', '|'],
+    ]);
+  });
+  it('should return digit 9 model', () => {
+    expect(DIGITS.DIGIT9).toEqual([
+      ['.', '_', '.'],
+      ['|', '_', '|'],
+      ['.', '.', '|'],
+    ]);
+  });
 });
