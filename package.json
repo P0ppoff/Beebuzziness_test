@@ -1,10 +1,11 @@
 {
   "name": "test_teck",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "node src/index.js"
   },
   "devDependencies": {
     "jest": "^24.9.0"
