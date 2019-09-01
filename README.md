@@ -26,6 +26,16 @@ Un programme en ligne de commandes permettra d’exécuter le résultat de ton t
 
 ## Solution proposée
 
+Et voici la ligne de commande :
+```bash
+# Avec Docker
+docker build -t test_BeeBuzziness .
+docker run test_BeeBuzziness 0123456789
+# Avec Node
+yarn
+yarn dev 0123456789
+```
+
 ## Histoire de la réalisation
 
 ### Step 1
