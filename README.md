@@ -24,6 +24,18 @@ Exemple du programme appelé avec `910`
 
 Un programme en ligne de commandes permettra d’exécuter le résultat de ton travail.
 
+## Solution proposée
+
+Et voici la ligne de commande :
+```bash
+# Avec Docker
+docker build -t test_BeeBuzziness .
+docker run test_BeeBuzziness 0123456789
+# Avec Node
+yarn
+yarn dev 0123456789
+```
+
 ## Histoire de la réalisation
 
 ### Step 1
@@ -60,3 +72,7 @@ La prochaine étape est donc de mieux gérer l’input de l’utilisateur.
 
 J’ai mis en place une gestion toute simple de l'input utilisateur. C’est pas extra mais ça fait le job.
 
+### Step 5
+
+J’ai fait un tout petit container Docker. Il peut s’exéuter sans arguement ou directement avec le nombre.
+J’ai vu pendant ce test que je n’avais pas géré les grands nombres (environ 30 chiffres). Il faudrait prendre le temps pour voir pourquoi la fonction `map` ne veut pas.

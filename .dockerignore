@@ -1,0 +1,6 @@
+*
+!.eslintrc.js
+!jest.config.js
+!package.json
+!yarn.lock
+!src
