@@ -14,5 +14,8 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.16.0",
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
   }
 }
